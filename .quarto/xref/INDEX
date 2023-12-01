@@ -1,0 +1,29 @@
+{
+  "about.qmd": {
+    "about.html": "c32c45a1"
+  },
+  "index.qmd": {
+    "index.html": "6c99ea8e"
+  },
+  "posts/1. Linear Regression/index.qmd": {
+    "index.html": "53a0df23"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "e20c5179"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "0e6267c0"
+  },
+  "posts/2. Probability Theory and Random Variables/index.qmd": {
+    "index.html": "a846bea6"
+  },
+  "posts/3. Clustering/index.qmd": {
+    "index.html": "cae20982"
+  },
+  "posts/4. Classification/index.qmd": {
+    "index.html": "7b6cf4f5"
+  },
+  "posts/5. Anomaly and Outlier detection/index.qmd": {
+    "index.html": "f4d45fc2"
+  }
+}

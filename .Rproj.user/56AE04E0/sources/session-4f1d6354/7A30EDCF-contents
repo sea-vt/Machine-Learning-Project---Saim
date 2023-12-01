@@ -1,0 +1,17 @@
+---
+title: "About"
+image: profile2.png
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/saim-ehtesham-ali-0b94011bb/
+    - icon: github
+      text: Github
+      href: https://github.com/sea-vt
+---
+
+My Name is Saim Ehtesham Ali. I am a PhD. student in the Engineering Mechanics department at Virginia Tech.
+
+This blog is about the things I learned in my machine learning course, CS5805 at Virginia Tech.
