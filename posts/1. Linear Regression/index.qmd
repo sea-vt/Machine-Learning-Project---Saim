@@ -16,6 +16,34 @@ keep-ipynb: true
 
 Linear regression is a widely used statistical method that models the relationship between a dependent variable and one or more independent variables. It's based on the assumption that there is a linear relationship between these variables. The goal of linear regression is to find the best-fitting straight line through the data points. This line is represented by an equation that predicts the dependent variable based on the values of the independent variables. This technique is particularly useful because of its simplicity and efficiency in forecasting outcomes.
 
+## **Mathematical Background of Linear Regression**
+
+Linear regression is a fundamental statistical approach in predictive modeling and machine learning. It operates on the principle that there's a linear relationship between the dependent variable (often denoted as �y) and one or more independent variables (denoted as �X).
+
+### **Equation of a Linear Model**
+
+The general form of a simple linear regression model (with one independent variable) is:
+
+�=�0+�1�+�y=β0​+β1​X+ϵ
+
+Here, �y is the dependent variable, �X is the independent variable, �0β0​ is the y-intercept, �1β1​ is the slope of the line, and �ϵ represents the error term.
+
+### **Estimating the Coefficients**
+
+The coefficients �0β0​ and �1β1​ are estimated using the method of least squares. This method minimizes the sum of the squares of the differences between the observed values and the values predicted by the model. The formulae for these coefficients in a simple linear regression are:
+
+�1=∑�=1�(��−�ˉ)(��−�ˉ)∑�=1�(��−�ˉ)2β1​=∑i=1n​(Xi​−Xˉ)2∑i=1n​(Xi​−Xˉ)(Yi​−Yˉ)​ �0=�ˉ−�1�ˉβ0​=Yˉ−β1​Xˉ
+
+Where �ˉXˉ and �ˉYˉ are the mean values of �X and �Y respectively.
+
+### **Assessing the Model**
+
+The goodness of fit for the linear regression model is typically assessed using the coefficient of determination, denoted as �2R2. It measures the proportion of variance in the dependent variable that is predictable from the independent variable(s).
+
+�2=1−����������R2=1−SStot​SSres​​
+
+Where �����SSres​ is the sum of squares of residuals, and �����SStot​ is the total sum of squares.
+
 ## **Advantages of Linear Regression**
 
 -   **Simplicity**: Linear regression is straightforward to implement, making it a great starting point for predictive modeling. Even with minimal statistical knowledge, one can interpret and understand the results of a linear regression model. This simplicity also leads to ease in training and predicting with these models, which is beneficial in many practical applications.

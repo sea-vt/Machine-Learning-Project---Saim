@@ -142,7 +142,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">1. Linear Regression</h1>
+      <h1 class="title">1. Machine Learning in Linear Regression</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Linear Regression</div>
                 <div class="quarto-category">ML</div>
@@ -185,6 +185,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="understanding-linear-regression" class="level1">
 <h1><strong>Understanding Linear Regression</strong></h1>
 <p>Linear regression is a widely used statistical method that models the relationship between a dependent variable and one or more independent variables. It’s based on the assumption that there is a linear relationship between these variables. The goal of linear regression is to find the best-fitting straight line through the data points. This line is represented by an equation that predicts the dependent variable based on the values of the independent variables. This technique is particularly useful because of its simplicity and efficiency in forecasting outcomes.</p>
+<section id="mathematical-background-of-linear-regression" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-background-of-linear-regression"><strong>Mathematical Background of Linear Regression</strong></h2>
+<p>Linear regression is a fundamental statistical approach in predictive modeling and machine learning. It operates on the principle that there’s a linear relationship between the dependent variable (often denoted as �y) and one or more independent variables (denoted as �X).</p>
+<section id="equation-of-a-linear-model" class="level3">
+<h3 class="anchored" data-anchor-id="equation-of-a-linear-model"><strong>Equation of a Linear Model</strong></h3>
+<p>The general form of a simple linear regression model (with one independent variable) is:</p>
+<p>�=�0+�1�+�y=β0​+β1​X+ϵ</p>
+<p>Here, �y is the dependent variable, �X is the independent variable, �0β0​ is the y-intercept, �1β1​ is the slope of the line, and �ϵ represents the error term.</p>
+</section>
+<section id="estimating-the-coefficients" class="level3">
+<h3 class="anchored" data-anchor-id="estimating-the-coefficients"><strong>Estimating the Coefficients</strong></h3>
+<p>The coefficients �0β0​ and �1β1​ are estimated using the method of least squares. This method minimizes the sum of the squares of the differences between the observed values and the values predicted by the model. The formulae for these coefficients in a simple linear regression are:</p>
+<p>�1=∑�=1�(��−�ˉ)(��−�ˉ)∑�=1�(��−�ˉ)2β1​=∑i=1n​(Xi​−Xˉ)2∑i=1n​(Xi​−Xˉ)(Yi​−Yˉ)​ �0=�ˉ−�1�ˉβ0​=Yˉ−β1​Xˉ</p>
+<p>Where �ˉXˉ and �ˉYˉ are the mean values of �X and �Y respectively.</p>
+</section>
+<section id="assessing-the-model" class="level3">
+<h3 class="anchored" data-anchor-id="assessing-the-model"><strong>Assessing the Model</strong></h3>
+<p>The goodness of fit for the linear regression model is typically assessed using the coefficient of determination, denoted as �2R2. It measures the proportion of variance in the dependent variable that is predictable from the independent variable(s).</p>
+<p>�2=1−����������R2=1−SStot​SSres​​</p>
+<p>Where �����SSres​ is the sum of squares of residuals, and �����SStot​ is the total sum of squares.</p>
+</section>
+</section>
 <section id="advantages-of-linear-regression" class="level2">
 <h2 class="anchored" data-anchor-id="advantages-of-linear-regression"><strong>Advantages of Linear Regression</strong></h2>
 <ul>
